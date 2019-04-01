@@ -1,0 +1,8 @@
+{
+    "rest": {
+        "port": 10002
+    },
+    "tokenDB": {
+        "uri": "http://localhost:27017/tokendb"
+    }
+}
