@@ -16,7 +16,6 @@ class REST {
 	}
 
 	async create(req, res) {
-		console.log("jee");
 		try { 
 			if(!req.body.userId) throw new Error("userId not set");
 			let token = await this.tokenDB.create(req.body.userId);
